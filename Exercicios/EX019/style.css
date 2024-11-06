@@ -1,0 +1,48 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+/*
+  HTML é ID = CSS é #
+  HTML é CLASS = CSS é .
+*/
+main{
+    background-color: aliceblue;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(205, 232, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    color: darkcyan;
+
+}
+
+h1#principal{
+    font-family: "Berkshire Swash", serif;
+    text-align: center;
+}
+
+h2{
+    color: cornflowerblue;
+}
+
+.basico{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(237, 235, 100);
+    font-weight: bold;
+}
+
+.avancado{
+    color: rgb(237, 100, 100);
+    font-weight: bold;
+}
